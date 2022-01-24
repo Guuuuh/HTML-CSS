@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div {
+    width: 300px;
+    height: 300px;
+    /*background-color: rgba(0, 96, 100, 0.8);*/
+    /*background: linear-gradient(to bottom, rgb(41, 98, 255), rgb(221, 44, 0));*/
+    /*background: radial-gradient(circle, rgb(240, 98, 146), rgb(33, 33, 33), rgb(136, 14, 79));*/
+    background-color: rgb(186, 104, 200);
+    border: 2px solid black;
+}
+#SegundaDiv {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(186, 104, 200, 0.5);
+}
