@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#content_img {
+    background-image: url(../Imagem/quadros-animes-jojo-s-bizarre-adventure-Quadro-Personagem-Johnny-Joestar-Jojo-s-Copia-1-copia-1-1627518661630.jpg);
+    background-size: 40%;
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-x;*/
+    background-repeat: repeat-y;
+    border: 2px solid red;
+    width: 100%;
+    height: 600px;
+}
