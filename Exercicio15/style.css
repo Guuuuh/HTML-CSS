@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../Imagem/0.jpg);
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
