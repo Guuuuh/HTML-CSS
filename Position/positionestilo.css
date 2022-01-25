@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div#pai {
+    width: 100px;
+    height: auto;
+    background-color: darkcyan;
+    margin-top: 100px;
+}
+div.filhas {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+#corunica {
+    background-color: crimson;
+    position: sticky;
+    top: 0;
+}

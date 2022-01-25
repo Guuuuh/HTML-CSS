@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div#imagem {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(../Imagens/one-piece-marco-the-phoenix-1st-division-commander-papel-de-parede-800x600_17.jpg);
+    background-repeat: repeat-y;
+    background-size: 25%;
+}
