@@ -1,0 +1,29 @@
+:root {
+    font-size: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article#el-papa {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    background-color: grey;
+}
+
+/* article#el-papa > p#el-hijo {
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+    font-size: 1em; /* 20px, vai buscar o tamanho da fonte pai, se fosse 2em na medida, a fonte ficaria com 40px
+} */
+
+article#el-papa > p#el-hijo {
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+    font-size: 1rem; /* 16px vai procurar o valor do root */
+}
