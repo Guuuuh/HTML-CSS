@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+section {
+    margin: 100px auto;
+    padding: 5px;
+    width: 30%;
+    height: auto;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+}
+
+fieldset {
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid rgba(0, 76, 121, 0.473);
+}
+
+#botao {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 10px 0;
+}

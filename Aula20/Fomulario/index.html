@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 20</title>
+</head>
+<body>
+<section id="Formulario">
+    <form action="" method="get" name="Cadastro">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+
+            <label for="NomeUser">Nome:</label>
+            <input type="text" required placeholder="Insira Seu Nome" class="txt" name="NomeUser" value="" id="NomeUser">
+
+            <label for="SobreUser">Sobrenome:</label>
+            <input type="text" required placeholder="Insira Seu Sobrenome" class="txt" name="SobreUser" id="SobreUser">
+
+            <label for="DataUser">Data de Nascimento:</label>
+            <input type="text" required placeholder="Insira Sua Data de Nascimento" class="txt" name="DataUser" id="DataUser">
+        </fieldset>
+        <fieldset>
+            <Legend>Sexo</Legend>
+
+            <label for="">Masculino</label>
+            <input type="radio" name="Genero" value="M">
+
+            <label for="">Feminino</label>
+            <input type="radio" name="Genero" value="F">
+
+            <label for="">Outro(a)</label>
+            <input type="radio" name="Genero" value="O">
+        </fieldset>
+        <fieldset>
+            <Legend>Linguagens de Programação</Legend>
+
+            <label for="Python">Python:</label>
+            <input type="checkbox" name="Python" value="Python" id="Python">
+
+            <label for="JS">JavaScript:</label>
+            <input type="checkbox" name="JS" value="JS" id="JS">
+
+            <label for="PHP">PHP:</label>
+            <input type="checkbox" name="PHP" value="PHP" id="PHP">
+        </fieldset>
+        <fieldset>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="Junior">Junior</option>
+                <option value="Pleno">Pleno</option>
+                <option value="Senior">Senior</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="edicao">Escreva Sobre Você:</label>
+            <textarea name="edicao" id="edicao" cols="100" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="EnviarDados" value="Enviar">
+    </form>
+</section>    
+</body>
+</html>
