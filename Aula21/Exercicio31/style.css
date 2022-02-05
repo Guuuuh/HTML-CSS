@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: silver;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+}
+
+#bullet {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 5px;
+}
