@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+header, main, footer {
+    width: 100%;
+    background-color: darkgray;
+}
+
+main {
+    height: auto;
+    margin: 2px auto 2px auto;
+}
+
+header {
+    height: 80px;
+}
+
+footer {
+    height: 200px;
+    border-top: 15px solid cadetblue;
+}
+
+.ajuste {
+    height: 40vh;
+    background-color: crimson;
+}
+
+.quadrado > div {
+    width: 49.9%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+#borda {
+    border-top: 15px solid cadetblue;
+}
+
+.divfooter {
+    background-color: greenyellow;
+    width: 49.9%;
+    height: 150px;
+    margin: 20px 2px 20px 2px;
+}
