@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 100%;
+    --cor-border-geral: #cfd8dc;
+    --cor-padrao-fonte: #434f55;
+    --fonte-padrao:'Playfair Display', cursive;
+    --fonte-cor-titulo: crimson;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--fonte-padrao);
+    color: var(--fonte-cor-titulo);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+a.efeito:hover {
+    background-color: crimson;
+    color: white;
+    border-radius: 25%;
+    transition: 1.5s;
+}
+
+header, main, footer {
+    width: 75%;
+    margin: auto;
+}
+
+#top-header {
+    border-bottom: 1px solid var(--cor-border-geral);
+    height: 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center-xy {
+    align-items: center;
+    justify-content: center;
+}
+
+#top-header h1, #top-header nav {
+    width: 50%;
+}
+
+#top-header h1 {
+    color: var(--fonte-cor-titulo);
+    align-items: center;
+    font-family: var(--fonte-padrao);
+    font-size: 2rem;
+}
+
+/* #top-header nav {
+
+} */
+
+nav ul li {
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-header nav ul {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.icone {
+    padding-right: 5px;
+}
+
+.checkpoint {
+    font-size: 2rem;
+}
+
+section#cards {
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+section#cards div.card {
+    width: 320px;
+    border: 1px solid gray;
+    background-color: rgb(243, 243, 243);
+    flex-grow: 1; 
+}
+
+figure.card-img-pizza {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+img.img-pizza {
+    width: 100%;
+}
+
+form.form-tamanho-pizza div label {
+    width: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.form-tamanho-pizza label {
+    width: 30px;
+    flex-direction: column;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color: crimson;
+}
+
+#segundo-titulo {
+    font-size: 1.3rem;
+    font-family: var(--fonte-padrao);
+    color: crimson;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+form.form-tamanho-pizza div.content-controles, form.form-tamanho-pizza div.controle-form-btn {  
+    width: 100%;
+} 
+
+div.controle-form-btn {
+    padding: 10px;  
+}
+
+div.controle-form-btn .botao {
+    padding: 10px;
+    width: 150px;
+    margin-top:5px;
+    border: none;
+    background-color: crimson;
+    color:#fff;
+    cursor:pointer;
+}
+
+footer {
+    height: 60px;
+    border-top: var(--cor-border-geral);
+    margin-top: 10px;
+    background-color: crimson;
+}
+
+h3 { 
+    width: 100%;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: white;
+}
